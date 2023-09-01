@@ -9,4 +9,4 @@ Distribution versions are provided both for the browser (in both IIFE and ESM fo
 
 To facilitate the Node.js builds, the `window` object must be passed to the class on instantiation. For Node.js, the `window` object must be provided by loading the [`jsdom`](https://github.com/jsdom/jsdom) library.
 
-Two other optional functions may be passed to the class. One for custom logging and the other for doing syntax highlighting of JSON. If not provided, dummy functions are used that produce no output.
+Two other optional functions may be passed to the class. One for custom logging and the other for doing syntax highlighting of JSON. If not provided, dummy functions are used that produce no output. For the custom logging function, it must be a function that returns a function; this is required to enable the log to reference the true source location of the log output instead of the location of the log function itself.
