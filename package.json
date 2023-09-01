@@ -1,0 +1,38 @@
+{
+  "name": "@TotallyInformation/ui.js",
+  "version": "1.0.0",
+  "description": "A small but powerful library for both the browser and node.js that takes standardised JSON input and converts to HTML making it very easy to create web pages without HTML coding.",
+  "main": "dist/ui.nodecjs.js",
+  "browser": "./dist/ui.min.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "docs": "docsify serve ./docs",
+    "edit-docs": "%LOCALAPPDATA%/Programs/Typora/Typora.exe ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["html", "converter", "json", "ui", "web", "page-builder", "ui-builder", "low-code"],
+  "homepage": "https://totallyinformation.github.io/ui.js/#/",
+  "bugs": "https://github.com/TotallyInformation/ui.js/issues",
+  "author": {
+    "name": "Julian Knight (TotallyInformation)",
+    "url": "https://github.com/TotallyInformation"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TotallyInformation/ui.js"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=14.14"
+  },
+  "directories": {
+    "doc": "./docs"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "maintained node versions",
+    "last 2 versions",
+    "not dead",
+    "not ie > 0"
+  ]
+}
