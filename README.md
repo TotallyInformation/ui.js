@@ -1,5 +1,5 @@
 # ui.js
-A small but powerful library for both the browser and node.js that takes standardised JSON input and converts to HTML.
+A small but powerful library for both the browser and node.js that takes standardised JSON input and converts to HTML making it very easy to create web pages without HTML coding.
 
 Originally written to support the `uibuilder` package for Node-RED, this is now made available as a standalone library for use in any project.
 
